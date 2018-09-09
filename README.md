@@ -1,2 +1,3 @@
 # McDonald's Menu: Clustering and Predicting
-Clustering and Predicting for items on the McDonald's Menu.  Both past and current items are considered within the clusterin and predictive model for future items.
+This project was submitted as a final deliverable for a data mining class offered through a M.S. Data Science program at the University of Wisconsin - Eau Claire.
+The project focuses on past and current items off the McDonald's menu with a goal of organizing and visualizing clusters in relation to nutritional data on an x~y axis.
