@@ -9,4 +9,4 @@ The project focuses on past and current items from the McDonald's menu with a go
 2.  Hierarchical clustering
 3.  K-mean clustering
 4.  Cross-validation and double cross-validation of SVC and SVM
-5.  Fitting all data to selected model
+5.  Fitting data to best model and predicting categories of future items
