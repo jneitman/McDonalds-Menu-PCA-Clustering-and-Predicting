@@ -296,7 +296,7 @@ CV.out = sum(allpredictedCV.out != y.out)/n.out
 print(paste("1-CV = ", 1-CV.out))
 
 ```
-
+Fit data to best model
 ```{r}
 #Fit the best model to the full data set (with tune function)
 set.seed(100)
@@ -314,7 +314,7 @@ svm.table = as.data.frame.matrix(table(best_model$fitted, menu_svm$Category))
 formattable(svm.table, list("Beef & Pork" = color_tile("snow","darkorange2"), "Beverages" = color_tile("snow", "mediumseagreen"), "Breakfast" = color_tile("snow", "orchid"), "Chicken & Fish" = color_tile("snow", "yellow3"), "Coffee & Tea" = color_tile("snow", "turquoise3"), "Desserts" = color_tile("snow", "hotpink"), "Salads" = color_tile("snow", "limegreen"), "Smoothies & Shakes" = color_tile("snow", "steelblue1"), "Snacks & Sides" = color_tile("snow", "salmon")))
 
 ```
-
+Predictions
 ```{r}
 #See if new products identify as their assigned category (assignment by McDonald's); outliers previously removed will be tested as an example
 menu_raw = read.csv("menu.csv")
