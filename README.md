@@ -5,6 +5,7 @@ The project focuses on past and current items from the McDonald's menu with a go
 
 ## Project Contents
 1.  Loading the data and exploratory analysis
+2.  Principle Component Analysis
 2.  Hierarchical clustering
 3.  K-mean clustering
 4.  Cross-validation and double cross-validation of SVC and SVM
